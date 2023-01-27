@@ -5,5 +5,5 @@ I have used a DFS based approach to solve the problem. As mentioned in the quest
 Steps Taken to Solve:
 1. Traverse the board's boundary elements and search for O's
 2. Perform DFS from the position of every O we locate.
-3. Convert all O characters in DFS to a temporary character \$ .
+3. Convert all O characters in DFS to a temporary character \$.
 4. Flip remaining O to X and replace \$ with O
