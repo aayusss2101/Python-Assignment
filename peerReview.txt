@@ -1,0 +1,5 @@
+Amit Shukla's Approach
+Amit Shukla has used a DFS-based approach to solve the question. The main() method serves as the driver function where he takes the input, outputs the result and calls the responsible function. He has implemented his DFS-based approach in the solve() function. In the method, first he has converted every border 'O' into 'T' and later on he has performed DFS from these elements. He has used the capture() method to perform the recursive DFS operation. At the end of function solve(), he has changed all O's to X and reverted back all T's to O.
+
+Aakash Singhal's Approach
+Aakash Singhal has also solved the question using a DFS-based method. He has used a driver function named main() to coalesce all the DFS operations. He has used three helper functions, namely isvalid(), capture() and print matrix().  In the main() method, e very border 'O' was first changed to a temporary character '$', and then DFS was carried out using these components. He used isvalid() method to validate if the cell is valid or not while he used the recursive function capture() to implement his recursive DFS approach/  h e turned all Os to X and changed all $s back to O.
