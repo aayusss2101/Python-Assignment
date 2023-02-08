@@ -88,30 +88,31 @@ def solve(board: list[list[str]]) -> None:
 
 
 if __name__ == "__main__":
-
-    # Total Number of Rows
-    m = int(input("Enter number of rows: "))
-    # Total Number of Columns
-    n = int(input("Enter number of columns: "))
-
-    # Board
-    board = [[]]*m
-
-    print("Enter board: ")
-
-    '''
-    Taking board input
-    For example, if you want board to be [['X','X'],['O','X']], give input in the form
-    XX
-    OX
-    '''
-    for i in range(m):
-        board[i] = list(input())
-
     try:
+        
+        # Total Number of Rows
+        m = int(input("Enter number of rows: "))
+        # Total Number of Columns
+        n = int(input("Enter number of columns: "))
+
+        # Board
+        board = [[]]*m
+
+        print("Enter board: ")
+
+        '''
+        Taking board input
+        For example, if you want board to be [['X','X'],['O','X']], give input in the form
+        XX
+        OX
+        '''
+        for i in range(m):
+            board[i] = list(input())
+        
         solve(board)
         
         # Final output board
         print(board)
+        
     except:
         print("Some error occurred")
