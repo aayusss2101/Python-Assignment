@@ -108,7 +108,10 @@ if __name__ == "__main__":
     for i in range(m):
         board[i] = list(input())
 
-    solve(board)
-
-    # Final output board
-    print(board)
+    try:
+        solve(board)
+        
+        # Final output board
+        print(board)
+    except:
+        print("Some error occurred")
